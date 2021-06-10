@@ -80,8 +80,20 @@ body {
   line-height: 24px;
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+   }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #FFFFFF;
+    background-color: #292929;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: #222;
+  }
+}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -89,13 +101,7 @@ h1 {
   margin-top: 0;
   margin-bottom: 16px;
   font-weight: 800; }
-h1 { font-size:24px; line-height: 64px; letter-spacing: 0;}
-
-
-/* Larger than phablet */
-@media (min-width: 550px) {
-  h1 { font-size: 48px; line-height: 96px;}
-}
+h1 { font-size: 48px; line-height: 96px; letter-spacing: 0;}
 
 p {
   margin-top: 0; }
@@ -165,3 +171,8 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
+@media (prefers-color-scheme: dark) {
+  code {
+    color: #000000;
+  }
+}

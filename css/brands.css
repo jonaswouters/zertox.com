@@ -123,6 +123,15 @@ button:hover,
 .button.button-github:focus {
   filter: brightness(90%) }
 
+/* Epic */
+.button.button-epic {
+  color: #FFFFFF;
+  background-color: #141414 }
+.button.button-epic:hover,
+.button.button-epic:focus {
+  filter: brightness(90%) }
+
+
 /* Goodreads */
 .button.button-goodreads {
   color: #333333;
