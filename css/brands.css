@@ -238,6 +238,14 @@ button:hover,
 .button.button-steam:hover,
 .button.button-steam:focus {
   filter: brightness(90%) }
+
+/* Xbox */
+.button.button-xbox {
+  color: #FFFFFF;
+  background-color: #107c10 }
+.button.button-xbox:hover,
+.button.button-xbox:focus {
+  filter: brightness(90%) }
   
 /* Telegram */
 .button.button-telegram {
